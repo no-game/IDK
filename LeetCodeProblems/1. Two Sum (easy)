@@ -1,0 +1,18 @@
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+    int i=0;
+    int k=1;
+    int j=i;
+    while(int k<6) {
+    if(nums[i]+nums[j+1]=target) {
+    System.out.println(nums[i],nums[j+1]);
+    j++;
+    }
+    if(nums[i]+nums[j+1]=target) {
+    System.out.println(nums[i],nums[i+1]);
+    j++;
+    }
+    
+    k++;   
+    }
+}
